@@ -11,6 +11,7 @@ body{
 .nav-container{
     margin-top: 2%;
     width: 100%;
+    height: auto;
 }
 .nav-bar{
     display: flex;
@@ -148,14 +149,14 @@ margin-top: 10%;
 
 #solution-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .solution-page-two {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 6%;
+    margin-top: 0;
     margin-left: 10%;
     background-color: white;
 }
@@ -208,13 +209,14 @@ margin-top: 7%;
 
 #data-container {
     width: 100%;
+    height: auto;
 }
 
 .datapage {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -269,6 +271,7 @@ padding-left: 5%;
 
 #data2-container {
     width: 100%;
+    height: auto;
 }
 
 .data2page {
@@ -331,7 +334,7 @@ margin-right: 15%;
 
 #community-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .communitypage {
@@ -459,7 +462,7 @@ box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.15);
 
 #final-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .final-page-two {
@@ -469,6 +472,7 @@ box-shadow: 7px 7px 10px 7px rgba(0, 0, 0, 0.15);
     margin-top: 6%;
     margin-left: 10%;
         background-color: white;
+        margin-bottom: 10%;
 }
 
 .final-left{
@@ -477,6 +481,7 @@ width: 40%;
 
 .sub-headTwo {
     font-size: 50px;
+    padding-bottom: 3%;
 
 }
 
@@ -486,7 +491,7 @@ width: 40%;
 }
 
 .final-btn{
-margin-top: 7%;
+margin-top: 8%;
 }
 
 .try2-btn {
@@ -519,14 +524,14 @@ margin-top: 7%;
 
 .policy{
      border-top: 1px solid rgb(129, 129, 129);
-     height: 50vh;
+     height: auto;
 }
 
 .policy-container{
     display: flex;
     justify-content: space-around;
     padding-top: 5%;
-    width: 80%;
+    width: auto;
 }
 
 .policy-container a{
@@ -536,5 +541,5 @@ color: black;
 
 .policy-container li{
     list-style: none;
-    padding-bottom: 20%;
+    padding-bottom: 25%;
 }
